@@ -1,0 +1,97 @@
+body {
+  background: #eee;
+  font-family: 'Architects Daughter', cursive;
+  background-image: url("https://www.transparenttextures.com/patterns/pinstripe-dark.png");
+}
+
+header {
+  background-color: blueviolet;
+  color: #ffff;
+  padding: 2px 35px;
+  margin: -16px;
+}
+
+footer {
+  background-color: blueviolet;
+  color: #ffff;
+ 
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+
+}
+
+.name {
+  position: fixed;
+  color: rgb(180, 138, 178);
+  margin-right: 12px;
+  font-family: 'Frank Ruhl Libre', serif;
+  right: 5px;
+  bottom: 2px;
+}
+
+.note {
+  background-color: #ffff;
+  border-radius: 8px;
+  width: 19%;
+  padding: 10px;
+  margin: 40px 50px 0 60px;
+  box-shadow: 0 2px 5px blueviolet;
+  resize: none;
+  float: left;
+}
+
+.icon {
+  color: #fff;
+}
+
+.note h3 {
+  margin-left: 10px;
+}
+
+.note p {
+  margin-left: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.formnote {
+  background-color: #ffff;
+  border-radius: 8px;
+  width: 25%;
+  padding: 10px;
+  margin-left: 37%;
+  margin-top: 30px;
+  box-shadow: 0 2px 5px blueviolet;
+
+}
+
+.forminput {
+  margin: 5px 0  8px 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+ width: 75%;
+ border: none;
+ font-family: 'Architects Daughter';
+}
+
+.formtextarea {
+  margin-left: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+  width: 75%;
+  border: none;
+  font-family: 'Architects Daughter';
+}
+
+.btn {
+background-color:blueviolet ;
+color: #ffff;
+border-radius: 5px;
+padding: 4px 8px;
+margin-left: 70%;
+font-family: 'Architects Daughter';
+}

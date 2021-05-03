@@ -2,7 +2,20 @@ import React from "react";
 
 function Note(props) {
   const d = new Date().getDate();
-  const m = new Date().getMonth();
+  var month = new Array();
+month[0] = "Jan";
+month[1] = "Feb";
+month[2] = "March";
+month[3] = "April";
+month[4] = "May";
+month[5] = "June";
+month[6] = "July";
+month[7] = "August";
+month[8] = "Sept";
+month[9] = "Oct";
+month[10] = "Nov";
+month[11] = "Dec";
+  const m = month[new Date().getMonth()];
   const y = new Date().getFullYear();
 
   function handledelete() {
